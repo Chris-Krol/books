@@ -1,0 +1,23 @@
+Get http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+###
+
+Post http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter"
+}
+###
+
+PUT  http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Lord of the rings"
+}
+###
+
+DELETE  http://localhost:3001/books/2 HTTP/1.1
+Content-Type: application/json
